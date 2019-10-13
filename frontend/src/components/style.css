@@ -1,0 +1,37 @@
+.homepage{
+    font-family: 'Times New Roman', Times, serif;
+    color: white; 
+    background-color: #3CBC8D;
+}
+
+.button{
+    background-color: #3CBC8D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.login{
+    font-family: 'Times New Roman', Times, serif;
+    color: white; 
+    background-color: #3CBC8D;
+}
+.register{
+    font-family: 'Times New Roman', Times, serif;
+    color: white; 
+    background-color: #3CBC8D;
+}
+.typearea{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    display: inline-block;
+    border-radius: 4px;
+}

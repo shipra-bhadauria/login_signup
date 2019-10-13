@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import './style.css';
 
 class Login extends Component {
   constructor(props) {
@@ -41,12 +42,12 @@ class Login extends Component {
     return (
       <div>
         <center>
-          <h1>Login</h1>
+          <h1 className="login">Login</h1>
           <h3 style={{ color: "red" }}>{this.state.error}</h3>
         </center>
         <table border="0" align="center" width="500">
           <tr>
-            <td align="right">Email</td>
+            <td  className="typearea" align="right">Email</td>
             <td align="left">
               <input
                 type="text"
@@ -57,7 +58,7 @@ class Login extends Component {
             </td>
           </tr>
           <tr>
-            <td align="right">Password</td>
+            <td className="typearea" align="right">Password</td>
             <td align="left">
               <input
                 type="password"
@@ -70,7 +71,7 @@ class Login extends Component {
           <tr>
             <td></td>
             <td align="left">
-              <button onClick={this.handleSubmit}>Login</button>
+              <button className="button" onClick={this.handleSubmit}>Login</button>
             </td>
           </tr>
         </table>

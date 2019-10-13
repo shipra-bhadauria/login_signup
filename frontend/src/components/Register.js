@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import './style.css';
 
 class Register extends Component {
   constructor(props) {
@@ -43,12 +44,12 @@ class Register extends Component {
     return (
       <div>
         <center>
-          <h1>Register</h1>
+          <h1 className="register">Register</h1>
           <h3 style={{ color: "red" }}>{this.state.error}</h3>
         </center>
         <table border="0" align="center" width="500">
           <tr>
-            <td align="right">Name</td>
+            <td  className="typearea" align="right">Name</td>
             <td align="left">
               <input
                 type="text"
@@ -59,7 +60,7 @@ class Register extends Component {
             </td>
           </tr>
           <tr>
-            <td align="right">Email</td>
+            <td  className="typearea" align="right">Email</td>
             <td align="left">
               <input
                 type="text"
@@ -70,7 +71,7 @@ class Register extends Component {
             </td>
           </tr>
           <tr>
-            <td align="right">Password</td>
+            <td  className="typearea" align="right">Password</td>
             <td align="left">
               <input
                 type="password"
@@ -83,7 +84,7 @@ class Register extends Component {
           <tr>
             <td></td>
             <td align="left">
-              <button onClick={this.handleSubmit}>Register</button>
+              <button className="button" onClick={this.handleSubmit}>Register</button>
             </td>
           </tr>
         </table>
