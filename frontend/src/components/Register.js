@@ -49,9 +49,9 @@ class Register extends Component {
         </center>
         <table border="0" align="center" width="500">
           <tr>
-            <td  className="typearea" align="right">Name</td>
+            <td className="details" align="right">Name : </td>
             <td align="left">
-              <input
+              <input  className="typearea" 
                 type="text"
                 name="name"
                 onChange={this.handleChange}
@@ -60,9 +60,9 @@ class Register extends Component {
             </td>
           </tr>
           <tr>
-            <td  className="typearea" align="right">Email</td>
+            <td  className="details" align="right">Email : </td>
             <td align="left">
-              <input
+              <input className="typearea"
                 type="text"
                 name="email"
                 onChange={this.handleChange}
@@ -71,9 +71,9 @@ class Register extends Component {
             </td>
           </tr>
           <tr>
-            <td  className="typearea" align="right">Password</td>
+            <td className="details"  align="right">Password :</td>
             <td align="left">
-              <input
+              <input className="typearea"
                 type="password"
                 name="password"
                 onChange={this.handleChange}

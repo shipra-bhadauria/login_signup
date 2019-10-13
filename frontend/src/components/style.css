@@ -24,6 +24,7 @@
     font-family: 'Times New Roman', Times, serif;
     color: white; 
     background-color: #3CBC8D;
+    
 }
 .typearea{
     width: 50%;
@@ -34,4 +35,12 @@
     outline: none;
     display: inline-block;
     border-radius: 4px;
+}
+
+.details{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
 }
